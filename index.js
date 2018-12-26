@@ -101,6 +101,7 @@ app.post('/api/sites/create', function(req, res){
         image_path: '/path/to/image/file',
         longitude: req.body.longitude,
         latitude: req.body.latitude,
+        ratings: 0,
         views: 0
     }
     db.sites.insert(newSite, function(err,results){
