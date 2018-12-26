@@ -23,6 +23,7 @@
   "homepage": "https://github.com/HEARAFRICA/hearafrica-api#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "mongojs": "^2.6.0"
   }
 }
