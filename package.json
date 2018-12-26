@@ -1,0 +1,28 @@
+{
+  "name": "hearafrica-app",
+  "version": "1.0.0",
+  "description": "The backend API for hearAfrica app. The app gives users the ability to listen to sites stories around the world",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HEARAFRICA/hearafrica-api.git"
+  },
+  "keywords": [
+    "API",
+    "hearafrica",
+    "africa"
+  ],
+  "author": "Romalice Ishimwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HEARAFRICA/hearafrica-api/issues"
+  },
+  "homepage": "https://github.com/HEARAFRICA/hearafrica-api#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
