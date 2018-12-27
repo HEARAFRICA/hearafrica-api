@@ -5,8 +5,8 @@ var mongojs = require('mongojs');
 
 var app = express();
 
-// Initialize database 
-var db = mongojs('hearafrica',['users','sites']);
+// Initialize database. Get connection string from Heroku's MONGODB_URI or local db
+var db = mongojs(process.env.MONGODB_URI || 'hearafrica', ['users','sites']);
 
 /** MIDDLEWARE */
 // Body parser
