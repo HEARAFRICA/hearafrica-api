@@ -134,7 +134,7 @@ app.get('/api/sites/:site_id', function(req, res){
 });
 
 /** Start server **/
-var port = 4000 || process.env.PORT;
-app.listen(port, function(){
+var port = process.env.PORT || 4000;
+app.listen(port, '0.0.0.0', function(){
     console.log("Server listening at "+port+"...");
 });
